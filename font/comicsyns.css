@@ -51,4 +51,13 @@
 .ComicSyns-terminator:before {
     content:         "\74";
 }
+.ComicSyns-promoter-left:before {
+    content:         "\50";
+}
+.ComicSyns-cds-left:before {
+    content:         "\43";
+}
+.ComicSyns-ori:before {
+    content:         "\6f";
+}
 

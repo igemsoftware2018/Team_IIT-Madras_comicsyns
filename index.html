@@ -1,0 +1,173 @@
+<html>
+<head>
+  <title>ComicSyns</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <link rel="icon" type="image/png" href="https://template.chassidex.org/chassidex.png" />
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    @font-face {
+      src: url(https://template.chassidex.org/gir.otf);
+      font-family: main;
+    }
+    @font-face {
+      src: url(/font/comicsyns.ttf);
+      font-family: comicsyns;
+    }
+    body{
+      padding: 0px;
+      margin: 0px;
+      font-family: main;
+      text-align: center;
+    }
+    header{
+      display: grid;
+      width: 100%;
+      background: #05080a;
+      color: #ffffff;
+      grid-template-columns: 1fr auto;
+      padding: 4mm;
+      text-align: left;
+    }
+    a {
+      text-decoration: none;
+    }
+    header img, footer img{
+      height: 8mm;
+      width: auto;
+    }
+    header span{
+      font-size: 6.5mm;
+    }
+    section{
+      display: inline-block;
+      width: 100%;
+      max-width: 200mm;
+      padding: 5mm;
+      color: #05080a;
+    }
+    footer{
+      width: 100%;
+      padding: 4mm;
+      background: #05080a;
+      color: #ffffff;
+    }
+    footer a{
+      font-size: 7mm;
+      color: #ffffff;
+    }
+    footer img{
+      vertical-align: -1.3mm;
+    }
+    .glyphbox{
+      display: inline-block;
+      width: 55mm;
+      background: #e0e0e0;
+      border-radius: 0.5mm;
+      padding: 2mm;
+      margin: 2mm;
+      text-align: left;
+      font-size: 5mm;
+    }
+    .glyphbox span:first-child{
+      font-family: comicsyns;
+      display: inline-block;
+      font-size: 10mm;
+      padding-right: 5mm;
+    }
+    .glyphbox span:nth-child(2){
+      color: #06c;
+    }
+    #trialbox{
+      font-family: comicsyns;
+      font-size: 10mm;
+      padding: 5mm;
+      border: 0.5mm solid #06c;
+    }
+    #trialbox:focus{
+      color: #06c;
+    }
+    p a{
+      display: inline-block;
+      padding: 2mm 5mm;
+      background: #06c;
+      color: #fff;
+      border-radius: 5mm;
+      margin: 2mm;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <span>ComicSyns</span>
+    <a href="https://chassidex.org">
+      <img src="https://template.chassidex.org/chassidex-text.png">
+    </a>
+  </header>
+  <br>
+  <section>
+    <h1 style="padding-top: 5mm; font-weight: normal;">Draw SynBio circuits with ease!</h1>
+    <p style="font-size: 5mm;">
+      ComicSyns is an icon font that lets you draw SynBio circuit symbols
+      by simply typing in characters on your keyboard! Try it out with the
+      textbox below.
+    </p>
+    <p id="trialbox" contenteditable="true" spellcheck="false">prct</p>
+    <div class="glyphbox">
+      <span>_</span><span>_ Underscore</span>
+      <br>
+      <span>Line</span>
+    </div>
+    <div class="glyphbox">
+      <span>p</span><span>p Lowercase</span>
+      <br>
+      <span>Right facing promoter</span>
+    </div>
+    <div class="glyphbox">
+      <span>P</span><span>P Uppercase</span>
+      <br>
+      <span>Left facing promoter</span>
+    </div>
+    <div class="glyphbox">
+      <span>r</span><span>r Lowercase</span>
+      <br>
+      <span>Ribosome binding site</span>
+    </div>
+    <div class="glyphbox">
+      <span>c</span><span>c Lowercase</span>
+      <br>
+      <span>Right facing CDS</span>
+    </div>
+    <div class="glyphbox">
+      <span>C</span><span>C Uppercase</span>
+      <br>
+      <span>Left facing CDS</span>
+    </div>
+    <div class="glyphbox">
+      <span>t</span><span>t Lowercase</span>
+      <br>
+      <span>Terminator</span>
+    </div>
+    <div class="glyphbox">
+      <span>o</span><span>o Lowercase</span>
+      <br>
+      <span>Replication Origin</span>
+    </div>
+    <br>
+    <p style="margin-top: 5mm;">
+      You can also download the font and use it on your word processor or website
+      <br>
+      <a href="/font/comicsyns.ttf">Download</a>
+    </p>
+  </section>
+  <br>
+  <footer>
+    <a href="https://github.com/ChassiDex/comicsyns">
+      <img src="https://template.chassidex.org/github.png">
+      &nbsp View Code
+    </a>
+  </footer>
+</body>
+</html>

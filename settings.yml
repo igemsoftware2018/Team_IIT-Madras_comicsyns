@@ -29,4 +29,14 @@ glyphs:
     - glyph:    glyphs-stroketopath/terminator.svg
       name:     terminator
       code:     0x0074
+    - glyph:    glyphs-stroketopath/promoter_left.svg
+      name:     promoter-left
+      code:     0x0050
+    - glyph:    glyphs-stroketopath/cds_left.svg
+      name:     cds-left
+      code:     0x0043
+    - glyph:    glyphs-stroketopath/ori.svg
+      name:     ori
+      code:     0x006F
+      
 
